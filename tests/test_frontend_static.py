@@ -7,6 +7,12 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class FrontendStaticTests(unittest.TestCase):
+    def test_root_index_redirects_pages_root_to_docs_site(self) -> None:
+        html = (ROOT / "index.html").read_text(encoding="utf-8")
+        self.assertIn('http-equiv="refresh"', html)
+        self.assertRegex(html, r'content="0; url=\./docs/"')
+        self.assertIn('window.location.replace("./docs/")', html)
+
     def test_homepage_has_dual_reader_entries_and_no_old_pitch_copy(self) -> None:
         html = (ROOT / "docs" / "index.html").read_text(encoding="utf-8")
         self.assertIn('reader/?book=daodejing&chapter=001', html)
