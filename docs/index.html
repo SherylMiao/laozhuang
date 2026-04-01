@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>道藏知識庫 — 道德經 · 南華真經</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/daozang.css?v=6" />
+    <style>
+      /* ── Hero 大標題區 ── */
+      .home-hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 56px 40px 48px;
+        border: 1px solid rgba(201, 169, 110, 0.28);
+        border-radius: var(--radius-xl);
+        background: linear-gradient(180deg, rgba(16, 22, 32, 0.97), rgba(10, 14, 20, 0.92));
+        backdrop-filter: blur(20px) saturate(1.2);
+        box-shadow: var(--shadow-md);
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 28px;
+        animation: fadeInUp 0.6s var(--ease) both;
+      }
+
+      /* 顶部金线 */
+      .home-hero::before {
+        content: "";
+        position: absolute;
+        top: 0; left: 12%; right: 12%;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, var(--gold), transparent);
+        opacity: 0.7;
+      }
+
+      /* 底部微光晕 */
+      .home-hero::after {
+        content: "";
+        position: absolute;
+        bottom: -40px; left: 50%;
+        transform: translateX(-50%);
+        width: 60%;
+        height: 120px;
+        background: radial-gradient(ellipse, rgba(201, 169, 110, 0.07), transparent 70%);
+        pointer-events: none;
+      }
+
+      .hero-emblem {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, var(--gold), var(--jade));
+        box-shadow: 0 0 32px rgba(201, 169, 110, 0.35);
+        display: grid;
+        place-items: center;
+        font-size: 26px;
+        color: var(--bg);
+        margin-bottom: 20px;
+        flex-shrink: 0;
+      }
+
+      .hero-title {
+        font-size: clamp(2rem, 5vw, 3rem);
+        font-weight: 600;
+        letter-spacing: 0.12em;
+        line-height: 1.15;
+        margin: 0;
+      }
+
+      .hero-en {
+        font-size: 0.82rem;
+        letter-spacing: 0.32em;
+        color: var(--text-muted);
+        margin-top: 8px;
+        text-transform: uppercase;
+      }
+
+      .hero-tagline {
+        margin-top: 20px;
+        color: var(--text-dim);
+        font-size: 0.9rem;
+        line-height: 1.9;
+      }
+
+      /* ── 数据栏（横向、居中、用竖分隔线） ── */
+      .hero-stats {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+        margin-top: 32px;
+        padding-top: 28px;
+        border-top: 1px solid rgba(255,255,255,0.07);
+        width: 100%;
+        flex-wrap: wrap;
+      }
+
+      .hero-stat {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 32px;
+        gap: 4px;
+      }
+
+      .hero-stat + .hero-stat {
+        border-left: 1px solid rgba(255,255,255,0.08);
+      }
+
+      .hero-stat-value {
+        font-size: 1.55rem;
+        font-weight: 600;
+        color: var(--text);
+        letter-spacing: 0.02em;
+        line-height: 1.2;
+      }
+
+      .hero-stat-label {
+        font-size: 0.74rem;
+        color: var(--text-dim);
+        letter-spacing: 0.1em;
+        white-space: nowrap;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-shell">
+
+      <!-- Hero Header -->
+      <div class="home-hero">
+        <div class="hero-emblem">☯</div>
+        <h1 class="hero-title">道藏知識庫</h1>
+        <p class="hero-en">Daozang Knowledge Base</p>
+        <p class="hero-tagline">
+          以數位人文方法，重新探索道家經典<br />
+          概念星圖 · 寓言圖鑑 · 實體標注 · 知識圖譜
+        </p>
+        <div class="hero-stats" id="hero-stats">
+          <!-- filled by JS -->
+        </div>
+      </div>
+
+      <!-- Entry Cards -->
+      <section class="entry-grid" style="animation-delay: 0.15s;">
+
+        <article class="entry-card">
+          <div class="eyebrow">老子 · 八十一章</div>
+          <h2 class="entry-title">道德經</h2>
+          <p class="entry-desc">
+            「道可道，非常道」— 五千言道論，涵蓋本體、修養、治術、自然四大範疇，以概念星圖可視化核心哲學脈絡。
+          </p>
+          <div class="stat-list" id="ddj-pills"></div>
+          <div class="entry-actions">
+            <a class="solid-button" href="reader/?book=daodejing&chapter=001">原文閱讀</a>
+            <a class="ghost-button" href="concept-map/">概念星圖</a>
+          </div>
+        </article>
+
+        <article class="entry-card">
+          <div class="eyebrow">莊子 · 三十三篇</div>
+          <h2 class="entry-title">南華真經</h2>
+          <p class="entry-desc">
+            「北冥有魚，其名為鯤」— 以寓言載道，內篇七篇全量標注，提取人物、主題與敘事結構，構建寓言圖鑑。
+          </p>
+          <div class="stat-list" id="nh-pills"></div>
+          <div class="entry-actions">
+            <a class="solid-button" href="reader/?book=nanhua&chapter=01_逍遙遊">原文閱讀</a>
+            <a class="ghost-button" href="fable-atlas/">寓言圖鑑</a>
+          </div>
+        </article>
+
+      </section>
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        道藏知識可視化 Demo · 數據來源：ctext.org · 實體標注與圖譜自動生成 · 2026
+      </footer>
+
+    </div>
+
+    <script src="js/shared.js"></script>
+    <script>
+      const { fetchJSON } = window.DaozangShared;
+
+      const renderPill = (label, value) =>
+        `<div class="pill"><span>${label}</span><strong>${value}</strong></div>`;
+
+      const fmt = (n) => typeof n === "number" ? n.toLocaleString("zh-TW") : n;
+
+      async function bootstrap() {
+        const stats = await fetchJSON("data/site_stats.json");
+
+        document.querySelector("#hero-stats").innerHTML = [
+          `<div class="hero-stat"><div class="hero-stat-value">${stats.daodejing.chapters}</div><div class="hero-stat-label">道德經章節</div></div>`,
+          `<div class="hero-stat"><div class="hero-stat-value">${stats.daodejing.concepts}</div><div class="hero-stat-label">核心概念</div></div>`,
+          `<div class="hero-stat"><div class="hero-stat-value">${fmt(stats.daodejing.chars)}</div><div class="hero-stat-label">道德經字數</div></div>`,
+          `<div class="hero-stat"><div class="hero-stat-value">${stats.nanhua.chapters}</div><div class="hero-stat-label">南華真經篇目</div></div>`,
+          `<div class="hero-stat"><div class="hero-stat-value">${stats.nanhua.fables}</div><div class="hero-stat-label">寓言條目</div></div>`,
+          `<div class="hero-stat"><div class="hero-stat-value">${fmt(stats.nanhua.chars)}</div><div class="hero-stat-label">南華真經字數</div></div>`,
+        ].join("");
+
+        document.querySelector("#ddj-pills").innerHTML = [
+          renderPill("章數", `${stats.daodejing.chapters} 章`),
+          renderPill("概念", `${stats.daodejing.concepts} 個`),
+          renderPill("字數", `${fmt(stats.daodejing.chars)} 字`),
+        ].join("");
+
+        document.querySelector("#nh-pills").innerHTML = [
+          renderPill("篇數", `${stats.nanhua.chapters} 篇`),
+          renderPill("已標註", `${stats.nanhua.annotated_chapters} 篇`),
+          renderPill("寓言", `${stats.nanhua.fables} 則`),
+        ].join("");
+      }
+
+      bootstrap().catch((error) => {
+        document.querySelector("#hero-stats").innerHTML =
+          `<div class="hero-stat"><div class="hero-stat-value">!</div><div class="hero-stat-label">${error.message}</div></div>`;
+      });
+    </script>
+  </body>
+</html>

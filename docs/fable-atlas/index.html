@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>寓言圖鑑 — 南華真經</title>
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../css/daozang.css?v=6" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand">
+          <div class="brand-icon"></div>
+          <div class="brand-text">
+            <div class="brand-mark">南華寓言圖鑑</div>
+            <div class="brand-sub">寓言 · 人物 · 主題網絡</div>
+          </div>
+        </div>
+        <nav class="nav-links">
+          <a href="../">返回首頁</a>
+          <a href="../reader/?book=nanhua&chapter=01_逍遙遊">原文閱讀</a>
+        </nav>
+      </header>
+
+      <section class="viz-shell">
+        <div class="surface">
+          <div class="surface-head">
+            <div>
+              <div class="eyebrow">三十三篇 · 寓言與角色</div>
+              <h1 class="section-title">寓言關係網</h1>
+            </div>
+          </div>
+          <div class="control-row">
+            <select id="mode-select">
+              <option value="fable">寓言視圖</option>
+              <option value="character">人物視圖</option>
+            </select>
+            <select id="section-filter">
+              <option value="all">全部篇目</option>
+              <optgroup label="內篇">
+                <option value="section:內篇">── 內篇全部</option>
+                <option value="01_逍遙遊">逍遙遊</option>
+                <option value="02_齊物論">齊物論</option>
+                <option value="03_養生主">養生主</option>
+                <option value="04_人間世">人間世</option>
+                <option value="05_德充符">德充符</option>
+                <option value="06_大宗師">大宗師</option>
+                <option value="07_應帝王">應帝王</option>
+              </optgroup>
+              <optgroup label="外篇">
+                <option value="section:外篇">── 外篇全部</option>
+                <option value="08_駢拇">駢拇</option>
+                <option value="09_馬蹄">馬蹄</option>
+                <option value="10_胠篋">胠篋</option>
+                <option value="11_在宥">在宥</option>
+                <option value="12_天地">天地</option>
+                <option value="13_天道">天道</option>
+                <option value="14_天運">天運</option>
+                <option value="15_刻意">刻意</option>
+                <option value="16_繕性">繕性</option>
+                <option value="17_秋水">秋水</option>
+                <option value="18_至樂">至樂</option>
+                <option value="19_達生">達生</option>
+                <option value="20_山木">山木</option>
+                <option value="21_田子方">田子方</option>
+                <option value="22_知北遊">知北遊</option>
+              </optgroup>
+              <optgroup label="雜篇">
+                <option value="section:雜篇">── 雜篇全部</option>
+                <option value="23_庚桑楚">庚桑楚</option>
+                <option value="24_徐無鬼">徐無鬼</option>
+                <option value="25_則陽">則陽</option>
+                <option value="26_外物">外物</option>
+                <option value="27_寓言">寓言</option>
+                <option value="28_讓王">讓王</option>
+                <option value="29_盜跖">盜跖</option>
+                <option value="30_說劍">說劍</option>
+                <option value="31_漁父">漁父</option>
+                <option value="32_列禦寇">列禦寇</option>
+                <option value="33_天下">天下</option>
+              </optgroup>
+            </select>
+            <input id="fable-search" type="search" placeholder="搜索寓言或人物…" />
+          </div>
+          <div class="viz-canvas" id="atlas-canvas"></div>
+          <div class="legend" id="theme-legend"></div>
+        </div>
+
+        <aside class="detail-panel">
+          <div class="detail-head">
+            <div>
+              <div class="eyebrow">詳情面板</div>
+              <div class="detail-title" id="atlas-title">選擇寓言或人物</div>
+            </div>
+          </div>
+          <div id="atlas-description">
+            <p class="panel-copy">點擊圖中節點，即可查看人物出場、共享主題與原文入口。</p>
+          </div>
+          <div class="detail-meta" id="atlas-meta"></div>
+          <div class="section-label">關聯內容</div>
+          <div class="mini-list" id="atlas-list">
+            <div class="mini-card" style="color: var(--text-dim)">選擇節點後顯示</div>
+          </div>
+        </aside>
+      </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="../js/shared.js"></script>
+    <script src="fable-atlas.js?v=3"></script>
+  </body>
+</html>

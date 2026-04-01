@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>道藏閱讀器</title>
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../css/daozang.css?v=6" />
+  </head>
+  <body class="reader-page">
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand">
+          <div class="brand-icon"></div>
+          <div class="brand-text">
+            <div class="brand-mark">原文閱讀器</div>
+            <div class="brand-sub">實體高亮 · 章節跳轉</div>
+          </div>
+        </div>
+        <nav class="nav-links">
+          <a href="../">返回首頁</a>
+          <a href="../" id="book-viz-link">概念星圖</a>
+        </nav>
+      </header>
+
+      <section class="reader-layout">
+        <!-- 左側：章節目錄 -->
+        <aside class="reader-sidebar">
+          <div class="sidebar-section" style="flex:1;min-height:0;display:flex;flex-direction:column;">
+            <div class="sidebar-title">章節目錄</div>
+            <div class="chapter-list" id="chapter-list"></div>
+          </div>
+        </aside>
+
+        <!-- 右側：實體圖例 + 正文 -->
+        <article class="reader-content">
+          <!-- 工具列 -->
+          <div class="reader-toolbar">
+            <div class="reader-heading">
+              <h1 class="reader-title" id="reader-title">載入中…</h1>
+              <p class="reader-subtitle" id="reader-subtitle">正在讀取章節數據</p>
+            </div>
+            <div class="reader-toolbar-actions">
+              <div class="nav-links">
+                <button class="ghost-button" id="prev-button" title="上一章 (←)">← 上一章</button>
+                <button class="ghost-button" id="next-button" title="下一章 (→)">下一章 →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 實體圖例（在正文上方） -->
+          <div class="entity-legend" id="entity-legend"></div>
+
+          <!-- 正文 -->
+          <div class="reader-prose" id="reader-prose"></div>
+        </article>
+      </section>
+    </div>
+
+    <script src="../js/shared.js"></script>
+    <script src="reader.js?v=3"></script>
+  </body>
+</html>

@@ -1,0 +1,1599 @@
+[
+  {
+    "id": "c001",
+    "name": "鯤",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f001"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "01_逍遙遊"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c002",
+    "name": "鵬",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f001"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "01_逍遙遊"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c003",
+    "name": "蜩",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f001",
+      "f003",
+      "f038",
+      "f046",
+      "f054"
+    ],
+    "fable_count": 5,
+    "chapters": [
+      "01_逍遙遊",
+      "02_齊物論",
+      "19_達生",
+      "23_庚桑楚",
+      "27_寓言"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c004",
+    "name": "學鳩",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f001",
+      "f046"
+    ],
+    "fable_count": 2,
+    "chapters": [
+      "01_逍遙遊",
+      "23_庚桑楚"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c005",
+    "name": "斥鴳",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f001"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "01_逍遙遊"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c006",
+    "name": "列禦寇",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f001",
+      "f013",
+      "f035",
+      "f037",
+      "f057",
+      "f061"
+    ],
+    "fable_count": 6,
+    "chapters": [
+      "01_逍遙遊",
+      "07_應帝王",
+      "18_至樂",
+      "19_達生",
+      "28_讓王",
+      "32_列禦寇"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c007",
+    "name": "堯",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f001",
+      "f003",
+      "f006",
+      "f009",
+      "f011",
+      "f018",
+      "f019",
+      "f024",
+      "f025",
+      "f028",
+      "f030",
+      "f033",
+      "f035",
+      "f041",
+      "f044",
+      "f045",
+      "f048",
+      "f050",
+      "f052",
+      "f055",
+      "f057",
+      "f058",
+      "f063"
+    ],
+    "fable_count": 23,
+    "chapters": [
+      "01_逍遙遊",
+      "02_齊物論",
+      "04_人間世",
+      "05_德充符",
+      "06_大宗師",
+      "10_胠篋",
+      "11_在宥",
+      "12_天地",
+      "13_天道",
+      "14_天運",
+      "17_秋水",
+      "18_至樂",
+      "20_山木",
+      "22_知北遊",
+      "23_庚桑楚",
+      "24_徐無鬼",
+      "25_則陽",
+      "26_外物",
+      "28_讓王",
+      "29_盜跖",
+      "33_天下"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c008",
+    "name": "許由",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f001",
+      "f011",
+      "f024",
+      "f048",
+      "f052",
+      "f055",
+      "f057",
+      "f058"
+    ],
+    "fable_count": 8,
+    "chapters": [
+      "01_逍遙遊",
+      "06_大宗師",
+      "12_天地",
+      "24_徐無鬼",
+      "26_外物",
+      "28_讓王",
+      "29_盜跖"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c009",
+    "name": "穀",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f001",
+      "f016",
+      "f020",
+      "f033"
+    ],
+    "fable_count": 4,
+    "chapters": [
+      "01_逍遙遊",
+      "08_駢拇",
+      "11_在宥",
+      "17_秋水"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c010",
+    "name": "惠施",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f001",
+      "f003",
+      "f010",
+      "f033",
+      "f035",
+      "f048",
+      "f050",
+      "f052",
+      "f054",
+      "f063"
+    ],
+    "fable_count": 10,
+    "chapters": [
+      "01_逍遙遊",
+      "02_齊物論",
+      "05_德充符",
+      "17_秋水",
+      "18_至樂",
+      "24_徐無鬼",
+      "25_則陽",
+      "26_外物",
+      "27_寓言",
+      "33_天下"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c011",
+    "name": "莊周",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f001",
+      "f003",
+      "f010",
+      "f025",
+      "f028",
+      "f033",
+      "f035",
+      "f040",
+      "f041",
+      "f043",
+      "f044",
+      "f048",
+      "f050",
+      "f051",
+      "f052",
+      "f054",
+      "f059",
+      "f062",
+      "f063"
+    ],
+    "fable_count": 19,
+    "chapters": [
+      "01_逍遙遊",
+      "02_齊物論",
+      "05_德充符",
+      "13_天道",
+      "14_天運",
+      "17_秋水",
+      "18_至樂",
+      "20_山木",
+      "21_田子方",
+      "22_知北遊",
+      "24_徐無鬼",
+      "25_則陽",
+      "26_外物",
+      "27_寓言",
+      "30_說劍",
+      "32_列禦寇",
+      "33_天下"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c012",
+    "name": "南郭子綦",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f002"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "02_齊物論"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c013",
+    "name": "庖丁",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f004"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "03_養生主"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c014",
+    "name": "文惠君",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f004"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "03_養生主"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c015",
+    "name": "老聃",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f004",
+      "f009",
+      "f019",
+      "f024",
+      "f026",
+      "f030",
+      "f043",
+      "f044",
+      "f045",
+      "f046",
+      "f050",
+      "f054",
+      "f063"
+    ],
+    "fable_count": 13,
+    "chapters": [
+      "03_養生主",
+      "05_德充符",
+      "11_在宥",
+      "12_天地",
+      "13_天道",
+      "14_天運",
+      "21_田子方",
+      "22_知北遊",
+      "23_庚桑楚",
+      "25_則陽",
+      "27_寓言",
+      "33_天下"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c016",
+    "name": "顏回",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f006",
+      "f011",
+      "f012",
+      "f029",
+      "f035",
+      "f038",
+      "f041",
+      "f043",
+      "f044",
+      "f057",
+      "f058",
+      "f060"
+    ],
+    "fable_count": 12,
+    "chapters": [
+      "04_人間世",
+      "06_大宗師",
+      "14_天運",
+      "18_至樂",
+      "19_達生",
+      "20_山木",
+      "21_田子方",
+      "22_知北遊",
+      "28_讓王",
+      "29_盜跖",
+      "31_漁父"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c017",
+    "name": "孔子",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f006",
+      "f007",
+      "f008",
+      "f009",
+      "f010",
+      "f011",
+      "f012",
+      "f024",
+      "f026",
+      "f029",
+      "f030",
+      "f033",
+      "f035",
+      "f038",
+      "f039",
+      "f041",
+      "f043",
+      "f044",
+      "f048",
+      "f049",
+      "f050",
+      "f052",
+      "f054",
+      "f057",
+      "f058",
+      "f060",
+      "f062"
+    ],
+    "fable_count": 27,
+    "chapters": [
+      "04_人間世",
+      "05_德充符",
+      "06_大宗師",
+      "12_天地",
+      "13_天道",
+      "14_天運",
+      "17_秋水",
+      "18_至樂",
+      "19_達生",
+      "20_山木",
+      "21_田子方",
+      "22_知北遊",
+      "24_徐無鬼",
+      "25_則陽",
+      "26_外物",
+      "27_寓言",
+      "28_讓王",
+      "29_盜跖",
+      "31_漁父",
+      "32_列禦寇"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c018",
+    "name": "臧",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f006",
+      "f016",
+      "f043",
+      "f058"
+    ],
+    "fable_count": 4,
+    "chapters": [
+      "04_人間世",
+      "08_駢拇",
+      "21_田子方",
+      "29_盜跖"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c019",
+    "name": "散木",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f007"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "04_人間世"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c020",
+    "name": "文木",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f007"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "04_人間世"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c021",
+    "name": "王駘",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f008"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "05_德充符"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c022",
+    "name": "申徒嘉",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f009"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "05_德充符"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c023",
+    "name": "伯昏無人",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f009",
+      "f043"
+    ],
+    "fable_count": 2,
+    "chapters": [
+      "05_德充符",
+      "21_田子方"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c024",
+    "name": "叔山無趾",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f009"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "05_德充符"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c025",
+    "name": "哀駘它",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f010"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "05_德充符"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c026",
+    "name": "桓公",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f010",
+      "f027",
+      "f039",
+      "f048",
+      "f058"
+    ],
+    "fable_count": 5,
+    "chapters": [
+      "05_德充符",
+      "13_天道",
+      "19_達生",
+      "24_徐無鬼",
+      "29_盜跖"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c027",
+    "name": "子祀",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f011"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "06_大宗師"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c028",
+    "name": "子輿",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f011",
+      "f012"
+    ],
+    "fable_count": 2,
+    "chapters": [
+      "06_大宗師"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c029",
+    "name": "子犁",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f011"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "06_大宗師"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c030",
+    "name": "子來",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f011",
+      "f030",
+      "f045"
+    ],
+    "fable_count": 3,
+    "chapters": [
+      "06_大宗師",
+      "14_天運",
+      "23_庚桑楚"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c031",
+    "name": "子貢",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f011",
+      "f024",
+      "f030",
+      "f035",
+      "f057",
+      "f058",
+      "f060"
+    ],
+    "fable_count": 7,
+    "chapters": [
+      "06_大宗師",
+      "12_天地",
+      "14_天運",
+      "18_至樂",
+      "28_讓王",
+      "29_盜跖",
+      "31_漁父"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c032",
+    "name": "孟孫才",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f011"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "06_大宗師"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c033",
+    "name": "壺子",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f013"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "07_應帝王"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c034",
+    "name": "渾沌",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f014",
+      "f021",
+      "f024"
+    ],
+    "fable_count": 3,
+    "chapters": [
+      "07_應帝王",
+      "11_在宥",
+      "12_天地"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c035",
+    "name": "盜跖",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f016",
+      "f018",
+      "f019",
+      "f058"
+    ],
+    "fable_count": 4,
+    "chapters": [
+      "08_駢拇",
+      "10_胠篋",
+      "11_在宥",
+      "29_盜跖"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c036",
+    "name": "伯樂",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f017"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "09_馬蹄"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c037",
+    "name": "田成子",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f018",
+      "f058"
+    ],
+    "fable_count": 2,
+    "chapters": [
+      "10_胠篋",
+      "29_盜跖"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c038",
+    "name": "廣成子",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f020"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "11_在宥"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c039",
+    "name": "雲將",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f021"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "11_在宥"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c040",
+    "name": "鴻蒙",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f021"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "11_在宥"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c041",
+    "name": "華封人",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f024"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "12_天地"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c042",
+    "name": "伯成子高",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f024"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "12_天地"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c043",
+    "name": "子路",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f026",
+      "f033",
+      "f043",
+      "f050",
+      "f057",
+      "f058",
+      "f060"
+    ],
+    "fable_count": 7,
+    "chapters": [
+      "13_天道",
+      "17_秋水",
+      "21_田子方",
+      "25_則陽",
+      "28_讓王",
+      "29_盜跖",
+      "31_漁父"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c044",
+    "name": "士成綺",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f026"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "13_天道"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c045",
+    "name": "輪扁",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f027"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "13_天道"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c046",
+    "name": "商太宰蕩",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f028"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "14_天運"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c047",
+    "name": "北門成",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f029"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "14_天運"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c048",
+    "name": "師金",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f029"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "14_天運"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c049",
+    "name": "河伯",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f033",
+      "f052"
+    ],
+    "fable_count": 2,
+    "chapters": [
+      "17_秋水",
+      "26_外物"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c050",
+    "name": "北海若",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f033"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "17_秋水"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c051",
+    "name": "漁父",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f033",
+      "f060"
+    ],
+    "fable_count": 2,
+    "chapters": [
+      "17_秋水",
+      "31_漁父"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c052",
+    "name": "魯侯",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f035",
+      "f039",
+      "f041"
+    ],
+    "fable_count": 3,
+    "chapters": [
+      "18_至樂",
+      "19_達生",
+      "20_山木"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c053",
+    "name": "蝴蝶",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f035"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "18_至樂"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c054",
+    "name": "關尹",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f037",
+      "f063"
+    ],
+    "fable_count": 2,
+    "chapters": [
+      "19_達生",
+      "33_天下"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c055",
+    "name": "痀僂丈人",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f038"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "19_達生"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c056",
+    "name": "單豹",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f039"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "19_達生"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c057",
+    "name": "張毅",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f039"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "19_達生"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c058",
+    "name": "梓慶",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f039"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "19_達生"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c059",
+    "name": "鴈",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f040"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "20_山木"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c060",
+    "name": "市南宜僚",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f041",
+      "f048",
+      "f050"
+    ],
+    "fable_count": 3,
+    "chapters": [
+      "20_山木",
+      "24_徐無鬼",
+      "25_則陽"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c061",
+    "name": "蟬",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f041"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "20_山木"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c062",
+    "name": "田子方",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f042"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "21_田子方"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c063",
+    "name": "魏文侯",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f042"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "21_田子方"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c064",
+    "name": "東郭順子",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f042"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "21_田子方"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c065",
+    "name": "溫伯雪子",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f043"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "21_田子方"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c066",
+    "name": "知北遊",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f044"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "22_知北遊"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c067",
+    "name": "無為謂",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f044"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "22_知北遊"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c068",
+    "name": "狂屈",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f044"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "22_知北遊"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c069",
+    "name": "庚桑楚",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f045"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "23_庚桑楚"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c070",
+    "name": "南榮趎",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f046"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "23_庚桑楚"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c071",
+    "name": "徐無鬼",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f047"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "24_徐無鬼"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c072",
+    "name": "女商",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f047"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "24_徐無鬼"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c073",
+    "name": "魏武侯",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f047"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "24_徐無鬼"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c074",
+    "name": "大隗",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f048"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "24_徐無鬼"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c075",
+    "name": "牧馬童子",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f048"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "24_徐無鬼"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c076",
+    "name": "則陽",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f049"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "25_則陽"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c077",
+    "name": "夷節",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f049"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "25_則陽"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c078",
+    "name": "彭陽",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f049"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "25_則陽"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c079",
+    "name": "王果",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f049"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "25_則陽"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c080",
+    "name": "公閱休",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f049"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "25_則陽"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c081",
+    "name": "戴晉人",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f050"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "25_則陽"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c082",
+    "name": "蝸",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f050"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "25_則陽"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c083",
+    "name": "監河侯",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f051"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "26_外物"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c084",
+    "name": "鮒魚",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f051"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "26_外物"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c085",
+    "name": "任公子",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f052"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "26_外物"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c086",
+    "name": "子州支父",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f055"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "28_讓王"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c087",
+    "name": "子州支伯",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f055"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "28_讓王"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c088",
+    "name": "善卷",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f056",
+      "f058"
+    ],
+    "fable_count": 2,
+    "chapters": [
+      "28_讓王",
+      "29_盜跖"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c089",
+    "name": "石戶之農",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f056"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "28_讓王"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c090",
+    "name": "大王亶父",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f057"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "28_讓王"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c091",
+    "name": "柳下季",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f058"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "29_盜跖"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c092",
+    "name": "趙文王",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f059"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "30_說劍"
+    ],
+    "description": ""
+  },
+  {
+    "id": "c093",
+    "name": "伯昏瞀人",
+    "type": "寓言角色",
+    "aliases": [],
+    "fable_ids": [
+      "f061"
+    ],
+    "fable_count": 1,
+    "chapters": [
+      "32_列禦寇"
+    ],
+    "description": ""
+  }
+]

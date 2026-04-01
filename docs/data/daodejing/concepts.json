@@ -1,0 +1,272 @@
+[
+  {
+    "name": "無",
+    "category": "本体",
+    "frequency": 90,
+    "description": "生成之始与不可执取之维度。"
+  },
+  {
+    "name": "有",
+    "category": "本体",
+    "frequency": 83,
+    "description": "有形有名之存在。"
+  },
+  {
+    "name": "道",
+    "category": "本体",
+    "frequency": 76,
+    "description": "道家哲学的最高范畴。"
+  },
+  {
+    "name": "大",
+    "category": "本体",
+    "frequency": 57,
+    "description": "宏阔与至极。"
+  },
+  {
+    "name": "善",
+    "category": "修养",
+    "frequency": 41,
+    "description": "合乎道的德性。"
+  },
+  {
+    "name": "德",
+    "category": "修养",
+    "frequency": 32,
+    "description": "由道落实为生命与政治秩序的表现。"
+  },
+  {
+    "name": "天",
+    "category": "自然",
+    "frequency": 23,
+    "description": "自然秩序与宇宙运行。"
+  },
+  {
+    "name": "萬物",
+    "category": "自然",
+    "frequency": 20,
+    "description": "一切存在者。"
+  },
+  {
+    "name": "一",
+    "category": "本体",
+    "frequency": 15,
+    "description": "统一与根本。"
+  },
+  {
+    "name": "信",
+    "category": "治术",
+    "frequency": 15,
+    "description": "言行可信。"
+  },
+  {
+    "name": "無為",
+    "category": "实践",
+    "frequency": 11,
+    "description": "不以私欲妄作，顺应万物之自然。"
+  },
+  {
+    "name": "谷",
+    "category": "自然",
+    "frequency": 10,
+    "description": "低下而包容的意象。"
+  },
+  {
+    "name": "地",
+    "category": "自然",
+    "frequency": 9,
+    "description": "承载万物的基础。"
+  },
+  {
+    "name": "天地",
+    "category": "自然",
+    "frequency": 9,
+    "description": "宇宙整体秩序。"
+  },
+  {
+    "name": "小",
+    "category": "本体",
+    "frequency": 9,
+    "description": "细微与谦下。"
+  },
+  {
+    "name": "不爭",
+    "category": "本体",
+    "frequency": 8,
+    "description": ""
+  },
+  {
+    "name": "仁",
+    "category": "治术",
+    "frequency": 8,
+    "description": "礼法化后的价值尺度。"
+  },
+  {
+    "name": "和",
+    "category": "自然",
+    "frequency": 8,
+    "description": "协调与均衡。"
+  },
+  {
+    "name": "玄",
+    "category": "本体",
+    "frequency": 8,
+    "description": "深微难言的存在状态。"
+  },
+  {
+    "name": "智",
+    "category": "治术",
+    "frequency": 7,
+    "description": "机巧与知虑。"
+  },
+  {
+    "name": "樸",
+    "category": "修养",
+    "frequency": 7,
+    "description": "未凿之朴，返本归真。"
+  },
+  {
+    "name": "母",
+    "category": "自然",
+    "frequency": 7,
+    "description": "生养万物的根源意象。"
+  },
+  {
+    "name": "柔弱",
+    "category": "实践",
+    "frequency": 5,
+    "description": "以柔克刚的生命姿态。"
+  },
+  {
+    "name": "牝",
+    "category": "自然",
+    "frequency": 5,
+    "description": "玄牝、生成之门。"
+  },
+  {
+    "name": "禮",
+    "category": "治术",
+    "frequency": 5,
+    "description": "秩序化与形式化的礼法。"
+  },
+  {
+    "name": "義",
+    "category": "治术",
+    "frequency": 5,
+    "description": "规范性的行为准则。"
+  },
+  {
+    "name": "自然",
+    "category": "实践",
+    "frequency": 5,
+    "description": "自然而然，本性自足。"
+  },
+  {
+    "name": "不善",
+    "category": "修养",
+    "frequency": 4,
+    "description": "失其本真的状态。"
+  },
+  {
+    "name": "玄德",
+    "category": "修养",
+    "frequency": 4,
+    "description": "深微而不自显的德。"
+  },
+  {
+    "name": "上德",
+    "category": "修养",
+    "frequency": 3,
+    "description": "不自居其德而德自成。"
+  },
+  {
+    "name": "嬰兒",
+    "category": "修养",
+    "frequency": 3,
+    "description": "未分化、近道的生命状态。"
+  },
+  {
+    "name": "常德",
+    "category": "修养",
+    "frequency": 3,
+    "description": "恒常不变的德性。"
+  },
+  {
+    "name": "氣",
+    "category": "本体",
+    "frequency": 3,
+    "description": "生成与流动的生命之气。"
+  },
+  {
+    "name": "水",
+    "category": "自然",
+    "frequency": 3,
+    "description": "柔弱而利万物的典型意象。"
+  },
+  {
+    "name": "沖",
+    "category": "本体",
+    "frequency": 3,
+    "description": "空灵、虚而能容。"
+  },
+  {
+    "name": "下德",
+    "category": "修养",
+    "frequency": 2,
+    "description": "执著于德名的状态。"
+  },
+  {
+    "name": "守靜篤",
+    "category": "本体",
+    "frequency": 0,
+    "description": ""
+  },
+  {
+    "name": "復命",
+    "category": "本体",
+    "frequency": 0,
+    "description": ""
+  },
+  {
+    "name": "損之又損",
+    "category": "本体",
+    "frequency": 0,
+    "description": ""
+  },
+  {
+    "name": "歸根",
+    "category": "本体",
+    "frequency": 0,
+    "description": ""
+  },
+  {
+    "name": "無極",
+    "category": "本体",
+    "frequency": 0,
+    "description": ""
+  },
+  {
+    "name": "玄同",
+    "category": "本体",
+    "frequency": 0,
+    "description": ""
+  },
+  {
+    "name": "知常",
+    "category": "本体",
+    "frequency": 0,
+    "description": ""
+  },
+  {
+    "name": "知足",
+    "category": "本体",
+    "frequency": 0,
+    "description": ""
+  },
+  {
+    "name": "致虛極",
+    "category": "本体",
+    "frequency": 0,
+    "description": ""
+  }
+]

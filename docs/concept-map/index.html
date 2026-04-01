@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>概念星圖 — 道德經</title>
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../css/daozang.css?v=6" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand">
+          <div class="brand-icon"></div>
+          <div class="brand-text">
+            <div class="brand-mark">道德經概念星圖</div>
+            <div class="brand-sub">核心概念關係可視化</div>
+          </div>
+        </div>
+        <nav class="nav-links">
+          <a href="../">返回首頁</a>
+          <a href="../reader/?book=daodejing&chapter=001">原文閱讀</a>
+        </nav>
+      </header>
+
+      <section class="viz-shell">
+        <div class="surface">
+          <div class="surface-head">
+            <div>
+              <div class="eyebrow">本體 · 修養 · 實踐 · 自然 · 治術</div>
+              <h1 class="section-title">概念關係網</h1>
+            </div>
+          </div>
+          <div class="control-row">
+            <select id="category-filter">
+              <option value="all">全部分類</option>
+            </select>
+            <input id="search-input" type="search" placeholder="搜索概念：道 / 無為 / 水 …" />
+          </div>
+          <div class="viz-canvas" id="concept-canvas"></div>
+          <div class="legend" id="category-legend"></div>
+        </div>
+
+        <aside class="detail-panel">
+          <div class="detail-head">
+            <div>
+              <div class="eyebrow">概念詳情</div>
+              <div class="detail-title" id="detail-title">選擇一個概念</div>
+            </div>
+          </div>
+          <p class="panel-copy" id="detail-description">
+            點擊星圖中的節點，即可查看概念的分類、出現頻次、關聯章節與關鍵引文。
+          </p>
+          <div class="detail-meta" id="detail-meta"></div>
+          <div class="section-label">關鍵引文</div>
+          <div class="quote-list" id="quote-list">
+            <div class="mini-card" style="color: var(--text-dim)">選擇概念後顯示</div>
+          </div>
+          <div class="section-label">涉及章節</div>
+          <div class="mini-list" id="chapter-list">
+            <div class="mini-card" style="color: var(--text-dim)">選擇概念後顯示</div>
+          </div>
+        </aside>
+      </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="../js/shared.js"></script>
+    <script src="concept-map.js?v=4"></script>
+  </body>
+</html>
